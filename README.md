@@ -1,0 +1,4 @@
+# Counting_Component
+The problem is converting and detecting a binary represented image and calculate the white components of the image. Detecting the neighbours of the white nodes is our main problem. We have to look 4 ways for neighbours and if upper neighbour has a group, we choose it s group firstly.Then we look for left neighbour, if it hasnt an upper neighbour.But right and downside neighbours are not for the choice. So we calculate how many groups we have.
+# Solution
+I implemented my code in main class. I used a multidimensional char array to keep digits which defined in image. I read input line by line from input.txt and split it digit by digit and store them in my multidimensional array. Then I navigate inside of the array and detect which one is white and has it any group of components. I choosed searching upper and left neighbour nodes as a best way to find their component groups.
